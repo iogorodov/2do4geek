@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="org.iogorodov.todoforgeeks.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:orientation="horizontal"
+        android:background="?attr/title_background_color" >
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:paddingRight="@dimen/drawer_title_padding" >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:src="?attr/drawer_icon"
+                android:scaleType="center" 
+                android:contentDescription="@null" />
+        </FrameLayout>
+        <TextView android:id="@+id/main_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/title_text"
+            android:gravity="start|center_vertical"
+            style="@style/Widget.TextView.Condensed"
+            android:text="@string/main_all_notes" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+        <TextView android:id="@+id/main_counter"
+            style="@style/Application.Title.Counter" />
+        <TextView
+            style="@style/Application.Title.Button"
+            android:text="@string/main_menu_save" />
+        <TextView
+            style="@style/Application.Title.Button"
+            android:text="@string/main_menu_edit" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_height"
+        android:background="?attr/frame_color" />
+    <ListView android:id="@+id/main_notes"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:listSelector="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent"
+        android:overScrollMode="never"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_height"
+        android:background="?attr/frame_color" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="?attr/edit_text_background_color" >
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="@dimen/edit_ver_padding"
+            android:paddingBottom="@dimen/edit_ver_padding" >
+            <EditText android:id="@+id/main_input_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine|textCapSentences"
+                android:textSize="@dimen/edit_text" >
+                <requestFocus />
+            </EditText>
+        </FrameLayout>
+        <TextView android:id="@+id/main_add"
+            style="@style/Application.Title.Button"
+            android:layout_width="wrap_content"
+            android:text="@string/main_add" />
+    </LinearLayout>
+</LinearLayout>

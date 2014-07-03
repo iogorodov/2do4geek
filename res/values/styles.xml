@@ -1,0 +1,51 @@
+<resources>
+    <attr name="title_background_color" format="color|reference" />
+    <attr name="title_text_color" format="color|reference" />
+    <attr name="drawer_icon" format="reference" />
+    <attr name="counter_background" format="reference" />
+    <attr name="counter_text_color" format="color|reference" />
+    <attr name="edit_text_background_color" format="color|reference" />
+    <attr name="frame_color" format="color|reference" />
+    <attr name="selector_background" format="reference" />
+    <attr name="note_background" format="reference" />
+
+    <style name="Widget.TextView.Light" parent="android:Widget.TextView">
+    </style>
+
+    <style name="Widget.TextView.Condensed" parent="android:Widget.TextView">
+    </style>
+
+    <style name="Application.Title.Button" parent="Widget.TextView.Condensed">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/title_button_text</item>
+        <item name="android:background">?attr/selector_background</item>
+        <item name="android:paddingLeft">@dimen/title_button_hor_padding</item>
+        <item name="android:paddingRight">@dimen/title_button_hor_padding</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="Application.Title.Counter" parent="Widget.TextView.Condensed">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/title_button_text</item>
+        <item name="android:textColor">?attr/counter_text_color</item>
+        <item name="android:background">?attr/counter_background</item>
+        <item name="android:layout_marginLeft">@dimen/title_counter_hor_padding</item>
+        <item name="android:layout_marginRight">@dimen/title_counter_hor_padding</item>
+    </style>
+
+    <style name="Application.Note" parent="android:Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/note_text</item>
+        <item name="android:background">?attr/selector_background</item>
+        <item name="android:padding">@dimen/note_inner_padding</item>
+        <item name="android:maxLines">6</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+</resources>

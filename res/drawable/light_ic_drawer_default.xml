@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:top="0dp" android:bottom="@dimen/drawer_icon_height">
+        <shape android:shape="rectangle"><solid android:color="@color/light_inactive"/></shape>
+    </item>
+    <item android:top="@dimen/drawer_icon_half_height" android:bottom="@dimen/drawer_icon_half_height">
+        <shape android:shape="rectangle"><solid android:color="@color/light_inactive"/></shape>
+    </item>
+    <item android:top="@dimen/drawer_icon_height" android:bottom="0dp">
+        <shape android:shape="rectangle">
+            <size android:width="@dimen/drawer_icon_width" android:height="@dimen/drawer_icon_line_height"/>
+            <solid android:color="@color/light_inactive"/>
+        </shape>
+    </item>
+</layer-list>

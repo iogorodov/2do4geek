@@ -1,0 +1,33 @@
+<resources>
+    <dimen name="global_padding">6dp</dimen>
+    <dimen name="global_huge_padding">10dp</dimen>
+    <dimen name="global_small_padding">2dp</dimen>
+
+    <dimen name="title_height">48dp</dimen>
+    <dimen name="title_button_hor_padding">@dimen/global_padding</dimen>
+
+    <dimen name="title_text">20sp</dimen>
+    <dimen name="title_button_text">16sp</dimen>
+
+    <dimen name="edit_text">18sp</dimen>
+    <dimen name="edit_ver_padding">@dimen/global_small_padding</dimen>
+
+    <dimen name="drawer_title_padding">@dimen/global_padding</dimen>
+    <dimen name="drawer_icon_width">12dp</dimen>
+    <dimen name="drawer_icon_height">14dp</dimen>
+    <dimen name="drawer_icon_half_height">7dp</dimen>
+    <dimen name="drawer_icon_line_height">4dp</dimen>
+
+    <dimen name="counter_background_corner_radius">6dp</dimen>
+    <dimen name="counter_background_ver_padding">@dimen/global_small_padding</dimen>
+    <dimen name="counter_background_hor_padding">@dimen/global_padding</dimen>
+    <dimen name="counter_hor_padding">@dimen/global_padding</dimen>
+    <dimen name="title_counter_hor_padding">@dimen/global_padding</dimen>
+
+    <dimen name="note_outer_hor_padding">@dimen/global_padding</dimen>
+    <dimen name="note_outer_ver_padding">@dimen/global_padding</dimen>
+    <dimen name="note_inner_padding">@dimen/global_padding</dimen>
+    <dimen name="note_text">16sp</dimen>
+
+    <dimen name="divider_height">1px</dimen>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.Light" parent="android:Theme.Holo.Light.NoActionBar">
+        <item name="android:windowBackground">@color/light_window_background</item>
+        <item name="android:textColor">@color/light_text</item>
+        <item name="title_background_color">@color/light_title_background</item>
+        <item name="drawer_icon">@drawable/light_ic_drawer</item>
+        <item name="counter_background">@drawable/light_counter_background</item>
+        <item name="counter_text_color">@color/light_inverse_text</item>
+        <item name="edit_text_background_color">@color/light_control_background</item>
+        <item name="frame_color">@color/light_inactive</item>
+        <item name="selector_background">@drawable/light_selector_background</item>
+        <item name="note_background">@drawable/light_note_background</item>
+    </style>
+</resources>

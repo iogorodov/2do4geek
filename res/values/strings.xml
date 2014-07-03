@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">2do4geeks</string>
+
+    <string name="main_find_results">Find Results</string>
+    <string name="main_all_notes">All Notes</string>
+    <string name="main_add">Add</string>
+    <string name="main_menu_save">Save</string>
+    <string name="main_menu_edit">Edit</string>
+</resources>

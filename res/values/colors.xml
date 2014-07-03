@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="light_window_background">#f5f4f3</color>
+    <color name="light_control_background">#ffffff</color>
+    <color name="light_title_background">#e0e0e0</color>
+    <color name="light_text">#000000</color>
+    <color name="light_inverse_text">#ffffff</color>
+    <color name="light_active">#ff2080f0</color>
+    <color name="light_inactive">#c0c0c0</color>
+    <color name="light_selector">#80c0c0c0</color>
+</resources>
